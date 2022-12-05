@@ -4,7 +4,10 @@
   <body class="bg-slate-50">
     <header class="w-full bg-[#27272a] text-white relative">
       <nav class="py-8 z-0">
-        <ul class="w-full inline-flex justify-center">
+        <span class="material-symbols-outlined md:invisible absolute z-10 px-8">
+          menu
+        </span>
+        <ul class="invisible md:visible w-full inline-flex justify-center">
           <li><a class="px-8" href="#">AllProducts</a></li>
           <li><a class="px-8" href="#">Smartphones</a></li>
           <li><a class="px-8" href="#">Notebooks</a></li>
@@ -19,7 +22,7 @@
     </header>
 
     <main>
-      <section>
+      <section class="flex justify-center">
         <!-- single card -->
         <a href="">
           <div

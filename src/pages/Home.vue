@@ -1,5 +1,5 @@
 <template>
-  <body class="bg-slate-50">
+  <body class="bg-slate-50 grid justify-items-center">
     <Header />
     <main>
       <GridOfProductCards />

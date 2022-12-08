@@ -1,15 +1,15 @@
 <template>
-  <a href="">
+  <a href="#" v-for="product in products" :product="product" :key="product.id">
     <div
-      class="relative flex-col justify-items-center bg-white p-4 m-8 max-w-[250px]"
+      class="relative flex-col justify-items-center bg-white p-4 m-4 min-w-[270px] max-w-[350px]"
     >
       <img
-        :src="productCard.productImage"
+        :src="product.images[0] || product.category.image"
         alt="product image"
         class="object-cover"
       />
-      <h2 class="py-4 text-lg">{{ productCard.h2 }}</h2>
-      <p class="text-end">${{ productCard.price }}</p>
+      <h2 class="py-4 text-lg">{{ product.title }}</h2>
+      <p class="text-end">${{ product.price }}</p>
       <button class="w-full bg-green-500 p-4 my-4 text-white">
         Add to cart
       </button>
@@ -18,9 +18,5 @@
 </template>
 
 <script setup>
-const productCard = {
-  productImage: "https://via.placeholder.com/250x250",
-  h2: "Notebook Lenovo Ideapad 320 Intel® Core i5-7200u 8GB",
-  price: 2259,
-};
+const props = defineProps({ products: Object });
 </script>

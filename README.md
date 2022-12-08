@@ -1,4 +1,4 @@
-# Vue and Tailwind practice project: E-commerce electronic website
+# Vue and Tailwind practice project: E-commerce website
 
 Design based on [this app](https://crisgon.github.io/vue-cart/dist/?ref=madewithvuejs.com#/). 
 

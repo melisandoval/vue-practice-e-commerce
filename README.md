@@ -1,7 +1,6 @@
-# Vue 3 + Vite
+# Vue and Tailwind practice project: E-commerce electronic website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Design based of [this app](https://crisgon.github.io/vue-cart/dist/?ref=madewithvuejs.com#/). 
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+* JavaScript framework: [Vue 3](https://vuejs.org/guide/introduction.html).
+* CSS Framework: [Tailwind](https://tailwindcss.com/). 
